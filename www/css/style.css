@@ -1,0 +1,44 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+    height: 100%;
+}
+
+#location-input {
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    z-index: 5;
+    background-color: azure;
+    padding: 3px;
+    border: 1px solid #999;
+    text-align: center;
+    line-height: 30px;
+    padding-left: 10px;
+    width: 400px;
+}
+
+#weather-data {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    z-index: 0;
+    background-color: azure;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    padding-right: 10px;
+    width: 400px;
+}
+
+/* 
+* Optional: Makes the sample page fill the window. 
+*/
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
